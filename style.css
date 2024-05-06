@@ -1,0 +1,37 @@
+body {
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            min-height: 100vh;
+            margin:0;/* Remove default body margin */
+            padding:0;/* Remove default body padding */
+    }
+
+video {
+    position: fixed;/* Make the video fixed to the viewport */top: 0;
+    left:0;
+    width: 99%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire viewport and maintain aspect ratio */
+    z-index:-1;/* Place the video behind the content */
+    }
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    position: relative;/* Make the container position relative */
+}
+    
+.logo-container {
+    display: flex;/* Enable flexbox layout */
+    align-items: center;/* Align items vertically */
+    justify-content: center;/* Align items horizontally */
+    /* height: 100vh; /* Set container height to 100% viewport height */
+
+
+}
